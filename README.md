@@ -65,7 +65,7 @@ foo|B|0.22|USD|05 Apr 2018|24 Aug 2018|99|150.5
 
 
 **Tools -**
-Junit test cases are written using mockito
-Jautodoc is used to add java doc comments
-Sonar code scan is done for quality check
+* Junit test cases are written using mockito
+* Jautodoc is used to add java doc comments
+* Sonar code scan is done for quality check
 
