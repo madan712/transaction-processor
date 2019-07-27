@@ -50,14 +50,14 @@ This is a springboot maven application. Import this as a maven project in your I
 1. Spring integration is implemented to poll a particular location for transaction. You need to configure the polling location path in application.yml file
 2. Assuming instructions are sent in a .txt file in below format -
 
-`foo|B|0.50|SGP|01 Apr 2018|26 Aug 2018|200|100.25
+```foo|B|0.50|SGP|01 Apr 2018|26 Aug 2018|200|100.25
 foo|B|0.50|SGP|01 Apr 2018|26 Aug 2018|20|99
 bar|S|0.22|AED|05 Apr 2018|24 Aug 2018|450|150.5
 qux|S|0.22|USD|05 Apr 2018|24 Aug 2018|50|150.5
 baz|B|0.22|AED|05 Apr 2018|24 Aug 2018|85|20.5
 corge|S|0.22|USD|05 Apr 2018|24 Aug 2018|1000|150.5
 foo|B|0.22|USD|05 Apr 2018|24 Aug 2018|99|150.5
-`
+```
 
 3. Once file is processed it is moved to processed folder. All the instructions are kept in memory. It will be executed on actual settlement date.
 4. Report is shown in console. Total incoming and outgoing for the particular day is shown. All the entities are sorted as per the rank.
