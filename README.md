@@ -34,7 +34,7 @@ Create a report that shows
 ## Glossary of terms:
 * **Instruction:** An instruction to buy or sell
 * **Entity:** A financial entity whose shares are to be bought or sold
-* **Instruction Date:** Date on which the instruction was sent to JP Morgan by various clients
+* **Instruction Date:** Date on which the instruction was sent to Bank by various clients
 * **Settlement Date:** The date on which the client wished for the instruction to be settled with respect to Instruction Date
 * **Buy/Sell flag:**
 	* B – Buy – outgoing
