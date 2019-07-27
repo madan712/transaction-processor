@@ -1,0 +1,5 @@
+tps:
+  instructionFile:
+    location: D:/instruction 
+    ext: '*.txt'
+  exceptionalCurrency: AED|SAR
